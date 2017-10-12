@@ -28,6 +28,22 @@ namespace sc01_BeerAdvisor
 		{
 		}
 		
+		public partial class Array
+		{
+			
+			// aapt resource value: 0x7f040000
+			public const int beer_colors = 2130968576;
+			
+			static Array()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Array()
+			{
+			}
+		}
+		
 		public partial class Attribute
 		{
 			
@@ -37,6 +53,28 @@ namespace sc01_BeerAdvisor
 			}
 			
 			private Attribute()
+			{
+			}
+		}
+		
+		public partial class Id
+		{
+			
+			// aapt resource value: 0x7f050002
+			public const int beer_brands = 2131034114;
+			
+			// aapt resource value: 0x7f050000
+			public const int beer_color = 2131034112;
+			
+			// aapt resource value: 0x7f050001
+			public const int btn_find_beer = 2131034113;
+			
+			static Id()
+			{
+				global::Android.Runtime.ResourceIdManager.UpdateIdValues();
+			}
+			
+			private Id()
 			{
 			}
 		}
@@ -62,6 +100,12 @@ namespace sc01_BeerAdvisor
 			
 			// aapt resource value: 0x7f030000
 			public const int app_name = 2130903040;
+			
+			// aapt resource value: 0x7f030001
+			public const int btn_find_beer_text = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int textBrands = 2130903042;
 			
 			static String()
 			{

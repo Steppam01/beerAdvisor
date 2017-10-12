@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
   <string name="app_name">sc01_BeerAdvisor</string>
+  <string name="btn_find_beer_text">Recommend Beer Brands</string>
+  <string name="textBrands"></string>
+  <string-array name="beer_colors">
+    <item>Light</item>
+    <item>Amber</item>
+    <item>Brown</item>
+    <item>Dark</item>
+  </string-array>
 </resources>
